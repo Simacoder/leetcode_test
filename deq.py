@@ -25,3 +25,15 @@ print(actions)
 print('after removing the last order')
 actions.pop()
 print(actions)
+
+# Non linear data structures 
+
+# hash 
+hash("data")
+print(hash("data") % 100)
+
+# words
+word_definition = {}
+word_definition["data"] = "Facts or information."
+
+print(word_definition["data"])
